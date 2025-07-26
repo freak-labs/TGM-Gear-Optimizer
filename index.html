@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGM Gear Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="itemsBlock">
+        <div class="switchMenu">
+            <div class="switchMenuCategoryBlock selected">
+                <p class="switchMenuCategoryParagraph">Equipment</p>
+            </div>
+            <div class="switchMenuCategoryBlock">
+                <p class="switchMenuCategoryParagraph">Jewels</p>
+            </div>
+            <div class="switchMenuCategoryBlock">
+                <p class="switchMenuCategoryParagraph">Crystals</p>
+            </div>
+        </div>
+        <div class="currentMenu">
+            <div class="categoryContainer visible">
+                <p class="title">Godfather's Set</p>
+                <div class="nameAndElementsContainer">
+                    <p>Effect: Strengthens Bruisers & Hitmen</p>
+                    <div class="elements">
+                        <div class="element godfather bruhit rifle legacy">
+                            <img src="equipmentSets/godfatherBRUHIT/rifle.png" alt="Godfather's Set rifle">
+                        </div>
+                        <div class="element godfather bruhit tops legacy">
+                            <img src="equipmentSets/godfatherBRUHIT/tops.png" alt="Godfather's Set tops">
+                        </div>
+                        <div class="element godfather bruhit pants legacy">
+                            <img src="equipmentSets/godfatherBRUHIT/pants.png" alt="Godfather's Set pants">
+                        </div>
+                        <div class="element godfather bruhit shoes legacy">
+                            <img src="equipmentSets/godfatherBRUHIT/shoes.png" alt="Godfather's Set shoes">
+                        </div>
+                        <div class="element godfather bruhit melee legacy">
+                            <img src="equipmentSets/godfatherBRUHIT/melee.png" alt="Godfather's Set melee">
+                        </div>
+                        <div class="element godfather bruhit accessories legacy">
+                            <img src="equipmentSets/godfatherBRUHIT/accessories.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="nameAndElementsContainer">
+                    <p>Effect: Strengthens Bruisers & Bikers</p>
+                    <div class="elements">
+                        <div class="element godfather brubik rifle legacy">
+                            <img src="equipmentSets/godfatherBRUBIK/rifle.png" alt="Godfather's Set rifle">
+                        </div>
+                        <div class="element godfather brubik tops legacy">
+                            <img src="equipmentSets/godfatherBRUBIK/tops.png" alt="Godfather's Set tops">
+                        </div>
+                        <div class="element godfather brubik pants legacy">
+                            <img src="equipmentSets/godfatherBRUBIK/pants.png" alt="Godfather's Set pants">
+                        </div>
+                        <div class="element godfather brubik shoes legacy">
+                            <img src="equipmentSets/godfatherBRUBIK/shoes.png" alt="Godfather's Set shoes">
+                        </div>
+                        <div class="element godfather brubik melee legacy">
+                            <img src="equipmentSets/godfatherBRUBIK/melee.png" alt="Godfather's Set melee">
+                        </div>
+                        <div class="element godfather brubik accessories legacy">
+                            <img src="equipmentSets/godfatherBRUBIK/accessories.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="nameAndElementsContainer">
+                    <p>Effect: Strengthens Bikers & Hitmen</p>
+                    <div class="elements">
+                        <div class="element godfather bikhit rifle legacy">
+                            <img src="equipmentSets/godfatherBIKHIT/rifle.png" alt="Godfather's Set rifle">
+                        </div>
+                        <div class="element godfather bikhit tops legacy">
+                            <img src="equipmentSets/godfatherBIKHIT/tops.png" alt="Godfather's Set tops">
+                        </div>
+                        <div class="element godfather bikhit pants legacy">
+                            <img src="equipmentSets/godfatherBIKHIT/pants.png" alt="Godfather's Set pants">
+                        </div>
+                        <div class="element godfather bikhit shoes legacy">
+                            <img src="equipmentSets/godfatherBIKHIT/shoes.png" alt="Godfather's Set shoes">
+                        </div>
+                        <div class="element godfather bikhit melee legacy">
+                            <img src="equipmentSets/godfatherBIKHIT/melee.png" alt="Godfather's Set melee">
+                        </div>
+                        <div class="element godfather bikhit accessories legacy">
+                            <img src="equipmentSets/godfatherBIKHIT/accessories.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="categoryContainer">
+                <p class="title">Bruiser Jewels</p>
+                <div class="nameAndElementsContainer">
+                    <div class="elements">
+                        <div class="element jewel legacy" id="bruiser-atk">
+                            <img src="jewels/Bruiser-ATK.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="bruiser-def">
+                            <img src="jewels/Bruiser-DEF.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="bruiser-hp">
+                            <img src="jewels/Bruiser-HP.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="title">Hitmen Jewels</p>
+                <div class="nameAndElementsContainer">
+                    <div class="elements">
+                        <div class="element jewel legacy" id="hitmen-atk">
+                            <img src="jewels/Hitmen-ATK.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="hitmen-def">
+                            <img src="jewels/Hitmen-DEF.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="hitmen-hp">
+                            <img src="jewels/Hitmen-HP.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="title">Biker Jewels</p>
+                <div class="nameAndElementsContainer">
+                    <div class="elements">
+                        <div class="element jewel legacy" id="biker-atk">
+                            <img src="jewels/Biker-ATK.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="biker-def">
+                            <img src="jewels/Biker-DEF.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="biker-hp">
+                            <img src="jewels/Biker-HP.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="title">Event Jewels</p>
+                <div class="nameAndElementsContainer">
+                    <div class="elements">
+                        <div class="element jewel legacy" id="godfather">
+                            <img src="jewels/Godfather.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="godfather">
+                            <img src="jewels/Godfather.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="title">Wall and Mortar Jewels</p>
+                <div class="nameAndElementsContainer">
+                    <div class="elements">
+                        <div class="element jewel legacy" id="wall-def">
+                            <img src="jewels/Wall-DEF.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="mortar-car-atk">
+                            <img src="jewels/Mortar-Car-ATK.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <p class="title">Trap Jewels</p>
+                <div class="nameAndElementsContainer">
+                    <div class="elements">
+                        <div class="element jewel legacy" id="trap-atk">
+                            <img src="jewels/Trap-ATK.png" alt="">
+                        </div>
+                        <div class="element jewel legacy" id="trap-def">
+                            <img src="jewels/Trap-DEF.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="categoryContainer">crystals</div>
+        </div>
+    </div>
+    <div class="heroCage">
+        <div class="heroGearBar">
+            <div class="heroBarElement rifle plain">
+                <img src="equipmentSets/placeholders/riflePH.png" alt="">
+            </div>
+            <div class="heroBarElement tops plain">
+                <img src="equipmentSets/placeholders/topsPH.png" alt="">
+            </div>
+            <div class="heroBarElement pants plain">
+                <img src="equipmentSets/placeholders/pantsPH.png" alt="">
+            </div>
+            <div class="heroBarElement shoes plain">
+                <img src="equipmentSets/placeholders/shoesPH.png" alt="">
+            </div>
+        </div>
+        <div class="heroDisplay">
+            <img src="misc/hero.png" alt="">
+        </div>
+        <div class="heroGearBar">
+            <div class="heroBarElement melee plain">
+                <img src="equipmentSets/placeholders/meleePH.png" alt="">
+            </div>
+            <div class="heroBarElement accessories plain">
+                <img src="equipmentSets/placeholders/accessoriesPH.png" alt="">
+            </div>
+            <div class="heroBarElement accessories plain">
+                <img src="equipmentSets/placeholders/accessoriesPH.png" alt="">
+            </div>
+            <div class="heroBarElement accessories plain">
+                <img src="equipmentSets/placeholders/accessoriesPH.png" alt="">
+            </div>
+        </div>
+        <input type="button" value="CLEAR ALL" class="heroClearButton">
+    </div>
+    <div class="results">
+        <div class="additionalOptionBlock">
+            <input type="checkbox" checked class="ibaiCheckbox">
+            <label for="ibaiMultiplierCheckbox">10% basic attributes increase investment</label>
+        </div>
+
+        <p class="noEnhancementsInfo">No gear currently applied</p>
+    </div>
+
+    <div class="gradeMenu">
+        <div class="gradeMenuOption">
+            <p class="gradeMenuParagraph">Legacy</p>
+        </div>
+        <div class="gradeMenuOption">
+            <p class="gradeMenuParagraph">Grand</p>
+        </div>
+        <div class="gradeMenuOption">
+            <p class="gradeMenuParagraph">Elite</p>
+        </div>
+        <div class="gradeMenuOption">
+            <p class="gradeMenuParagraph">Rare</p>
+        </div>
+        <div class="gradeMenuOption">
+            <p class="gradeMenuParagraph">Simple</p>
+        </div>
+        <div class="gradeMenuOption">
+            <p class="gradeMenuParagraph">Plain</p>
+        </div>
+        <div class="gradeMenuInside"></div>
+    </div>
+
+    <div class="attributePreview"></div>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
